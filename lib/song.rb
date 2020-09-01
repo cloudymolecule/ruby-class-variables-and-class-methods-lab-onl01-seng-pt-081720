@@ -54,4 +54,18 @@ class Song
     genres_and_songs
   end
 
+  def self.artist_count
+
+    artists_and_songs = {}
+    @@artists.each do |a|
+
+      if artists_and_songs[a]
+        artists_and_songs[a] += 1
+      else
+        artists_and_songs[a] = 1
+      end
+    end
+    artists_and_songs
+  end
+
 end
