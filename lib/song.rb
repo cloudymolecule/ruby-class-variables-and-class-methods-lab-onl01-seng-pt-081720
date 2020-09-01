@@ -1,3 +1,4 @@
+require "pry"
 class Song
 
   @@count = 0
@@ -43,11 +44,8 @@ class Song
     counter = 0
     genres_and_songs = {}
     @@genres.each do |g|
-      if genres_and_songs.include?(g)
-        genres_and_songs = g[counter += 1]
-      else
-        genres_and_songs = g
-      end
+      binding.pry 
+
     end
 
   end
