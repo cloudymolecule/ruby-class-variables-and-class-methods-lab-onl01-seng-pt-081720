@@ -44,9 +44,9 @@ class Song
     genres_and_songs = {}
     @@genres.each do |g|
       if genres_and_songs.include? g
-        genres_and_songs = :g[counter += 1]
+        genres_and_songs = g[counter += 1]
       else
-        genres_and_songs = :g
+        genres_and_songs = g
       end
     end
 
