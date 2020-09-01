@@ -44,6 +44,7 @@ class Song
     counter = 0
     genres_and_songs = {}
     @@genres.each do |g|
+      binding.pry
       genres_and_songs[g] = 1
 
       #binding.pry
