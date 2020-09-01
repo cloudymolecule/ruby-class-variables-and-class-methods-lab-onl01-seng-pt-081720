@@ -51,5 +51,5 @@ class Song
     end
 
   end
-
+  genres_and_songs
 end
