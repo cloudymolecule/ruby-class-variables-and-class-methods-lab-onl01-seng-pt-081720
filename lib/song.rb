@@ -40,10 +40,11 @@ class Song
   end
 
   def self.genre_count
+    counter = 0
     genres_and_songs = {}
     @@genres.each do |g|
       if genres_and_songs.include? g
-        genres_and_songs[g]
+        genres_and_songs[:g] = [counter +=]
       else
         genres_and_songs[g]
       end
