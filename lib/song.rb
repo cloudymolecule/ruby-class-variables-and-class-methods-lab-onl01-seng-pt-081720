@@ -46,7 +46,7 @@ class Song
       if genres_and_songs.include? g
         genres_and_songs[:g] = [counter +=]
       else
-        genres_and_songs[g]
+        genres_and_songs[:g]
       end
     end
 
