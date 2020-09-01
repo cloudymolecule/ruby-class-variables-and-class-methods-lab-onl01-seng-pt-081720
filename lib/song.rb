@@ -49,7 +49,7 @@ class Song
       #binding.pry
 
     end
-
+    genres_and_songs
   end
-  genres_and_songs
+  
 end
